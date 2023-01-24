@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * convertToDecimal - Convert base 8 and 16 to base 10
  *
@@ -15,7 +14,6 @@ long long convertToDecimal(int Number, int base)
         ++i;
         Number/=10;
     }
-
     i = 1;
 
     return decimalNumber;
